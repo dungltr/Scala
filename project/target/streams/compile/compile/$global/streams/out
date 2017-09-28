@@ -1,0 +1,7 @@
+[error] /Users/letrungdung/Documents/SecondSbtScalaProject/project/Dependencies.scala:17:9: not found: value akkaActor
+[error]     Seq(akkaActor, specs2core % Test)
+[error]         ^
+[error] /Users/letrungdung/Documents/SecondSbtScalaProject/project/Dependencies.scala:17:20: not found: value specs2core
+[error]     Seq(akkaActor, specs2core % Test)
+[error]                    ^
+[error] two errors found
