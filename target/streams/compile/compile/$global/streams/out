@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/letrung/ScalaProjects/third/src/main/scala/SimpleApp.scala:205:16: Unable to find encoder for type stored in a Dataset.  Primitive types (Int, String, etc) and Product types (case classes) are supported by importing spark.implicits._  Support for serializing other types will be added in future releases.[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/letrung/ScalaProjects/third/src/main/scala/SimpleApp.scala:207:16: Unable to find encoder for type stored in a Dataset.  Primitive types (Int, String, etc) and Product types (case classes) are supported by importing spark.implicits._  Support for serializing other types will be added in future releases.[0m
 [0m[[0m[31merror[0m] [0m[0m    results.map(attributes => "Name: " + attributes(0)).show()[0m
 [0m[[0m[31merror[0m] [0m[0m               ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
