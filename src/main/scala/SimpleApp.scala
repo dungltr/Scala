@@ -1,4 +1,4 @@
-import org.apache.spark.sql.{Row, SparkSession}
+import org.apache.spark.sql.SparkSession
 object SimpleApp {
   case class Person(name: String, age: Long)
   def main(args: Array[String]) {
@@ -8,7 +8,10 @@ object SimpleApp {
       .appName("Spark SQL basic example")
       .config("spark.some.config.option", "some-value")
       .getOrCreate()
-    //runBasicDataFrameExample(spark)
+    runTestExample(spark)
+    //val textFile = spark.read.textFile("hdfs://master:9000/user/hive/warehouse/people.txt")
+    //println("\n The number of word in file is:=" + textFile.count + "\n")
+    //runBasicDataFrameExample(spark)// Only this is OK
     //runDatasetCreationExample(spark)
     //UntypedUserDefinedAggregate(spark)
     //runInferSchemaExample(spark)
@@ -17,8 +20,12 @@ object SimpleApp {
     println("\n Goodbye")
 
   }
+  private def runTestExample(spark: SparkSession): Unit = {
+    val textFile = spark.read.textFile("hdfs://master:9000/user/hive/warehouse/people.txt")
+    println("\n The number of word in file is:=" + textFile.count + "\n")
+  }
   private def runBasicDataFrameExample(spark: SparkSession): Unit = {
-    val df = spark.read.json("/user/hive/warehouse/people.json")
+    val df = spark.read.json("hdfs://master:9000/user/hive/warehouse/people.json")
     // Displays the content of the DataFrame to stdout
     df.show()
     // +----+-------+
@@ -131,7 +138,7 @@ object SimpleApp {
     // |  19| Justin|
     // +----+-------+
   }
-  private def runInferSchemaExample(spark: SparkSession): Unit = {
+/*  private def runInferSchemaExample(spark: SparkSession): Unit = {
     // For implicit conversions from RDDs to DataFrames
     import spark.implicits._
 
@@ -276,4 +283,5 @@ object SimpleApp {
 
 
   }
+*/
 }

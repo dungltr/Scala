@@ -17,8 +17,10 @@ lazy val backend = (project in file("backend"))
     libraryDependencies ++= backendDeps
   )
 */
-val overrideScalaVersion = "2.12.1"
-val sparkVersion = "2.1.0"
+//val overrideScalaVersion = "2.12.1"
+val overrideScalaVersion = "2.11.11"
+val sparkVersion = "2.2.0"
+//val sparkVersion = "2.1.0"
 val sparkXMLVersion = "0.4.1"
 val sparkCsvVersion = "1.5.0"
 val sparkElasticVersion = "2.3.4"
@@ -31,7 +33,8 @@ val sparkCassandraVersion = "1.6.0"
 resolvers ++= Seq(
   "All Spark Repository -> bintray-spark-packages" at "https://mvnrepository.com/artifact/"
 )
-dependencyOverrides += "org.scala-lang" % "scala-compiler" % "2.11.11"
+
+dependencyOverrides += "org.scala-lang" % "scala-compiler" % overrideScalaVersion
 libraryDependencies ++= Seq(
   // "org.scalatest"         % "scalatest_2.12"              % "2.0.M5b" % "test",
   // https://mvnrepository.com/artifact/org.scala-lang/scala-library

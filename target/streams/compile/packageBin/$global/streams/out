@@ -1,21 +1,15 @@
-[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/letrung/ScalaProjects/third/target/scala-2.12/secondsbtscalaproject_2.12-0.1.jar ...[0m
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/ubuntu/Scala/target/scala-2.12/secondsbtscalaproject_2.12-0.1.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/letrung/ScalaProjects/third/target/scala-2.12/classes/SimpleApp.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$$typecreator2$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/letrung/ScalaProjects/third/target/scala-2.12/classes/SimpleApp$$typecreator2$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$$typecreator8$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/letrung/ScalaProjects/third/target/scala-2.12/classes/SimpleApp$$typecreator8$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$$typecreator6$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/letrung/ScalaProjects/third/target/scala-2.12/classes/SimpleApp$$typecreator6$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$$typecreator3$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/letrung/ScalaProjects/third/target/scala-2.12/classes/SimpleApp$$typecreator3$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/letrung/ScalaProjects/third/target/scala-2.12/classes/SimpleApp$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$Person$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/letrung/ScalaProjects/third/target/scala-2.12/classes/SimpleApp$Person$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$Person.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/letrung/ScalaProjects/third/target/scala-2.12/classes/SimpleApp$Person.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ubuntu/Scala/target/scala-2.12/classes/SimpleApp$Person.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$$typecreator5$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/letrung/ScalaProjects/third/target/scala-2.12/classes/SimpleApp$$typecreator5$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ubuntu/Scala/target/scala-2.12/classes/SimpleApp$$typecreator5$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$Person$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ubuntu/Scala/target/scala-2.12/classes/SimpleApp$Person$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$$typecreator3$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ubuntu/Scala/target/scala-2.12/classes/SimpleApp$$typecreator3$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ubuntu/Scala/target/scala-2.12/classes/SimpleApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ubuntu/Scala/target/scala-2.12/classes/SimpleApp$.class[0m
 [0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
