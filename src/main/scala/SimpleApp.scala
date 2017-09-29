@@ -10,7 +10,7 @@ object SimpleApp {
       .getOrCreate()
     //runBasicDataFrameExample(spark)
     //runDatasetCreationExample(spark)
-    UntypedUserDefinedAggregate(spark)
+    //UntypedUserDefinedAggregate(spark)
     //runInferSchemaExample(spark)
     //runProgrammaticSchemaExample(spark)
     spark.stop()
