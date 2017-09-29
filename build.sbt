@@ -52,11 +52,11 @@ libraryDependencies ++= Seq(
   "org.apache.spark"      % "spark-mllib_2.11"           % sparkVersion % "provided",
   "com.databricks"        % "spark-xml_2.11"             % sparkXMLVersion,
   "com.databricks"        % "spark-csv_2.11"             % sparkCsvVersion,
-  "org.apache.spark"      % "spark-streaming-kafka_2.11" % sscKafkaVersion % "provided",
+  "org.apache.spark"      % "spark-streaming-kafka_2.11" % sscKafkaVersion % "provided"
 
-  "org.mongodb.spark"     % "mongo-spark-connector_2.11" % sparkMongoVersion,
-  "org.mongodb.spark" % "mongo-spark-connector_2.11" % "2.1.0",
-  "com.stratio.datasource" % "spark-mongodb_2.11"         % "0.12.0"
+  //"org.mongodb.spark"     % "mongo-spark-connector_2.11" % sparkMongoVersion,
+  //"org.mongodb.spark" % "mongo-spark-connector_2.11" % "2.1.0",
+  //"com.stratio.datasource" % "spark-mongodb_2.11"         % "0.12.0"
 )
 
 
